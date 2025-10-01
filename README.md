@@ -33,3 +33,10 @@ uv run dev
 # or using uvx
 uvx uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
+
+## Example Request
+
+```bash
+curl -L -X POST "http://localhost:8000/tithing?start=2025-05-27&end=2025-09-30&desc_contains=MWD%20MILLWORK%20DEV%20PAYROLL&format=csv" \
+        -F "file=@./bank.csv"
+```
