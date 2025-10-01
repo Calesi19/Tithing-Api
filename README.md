@@ -1,4 +1,4 @@
-# Wells Tithing API
+# Wells Fargo Tithing API
 
 Upload a **Wells Fargo** CSV export and compute a tithing amount (default **10%**) for deposits whose description contains a given substring (default: `MILLWORK DEV PAYROLL`) within a date range.
 
