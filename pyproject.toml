@@ -15,8 +15,16 @@ dependencies = [
 requires = ["uv_build>=0.8.19,<0.9.0"]
 build-backend = "uv_build"
 
-[tool.uv]
 
-[tool.uv.scripts]
-dev = "uvicorn app.main:app --reload --host 0.0.0.0 --port 8000"
-prod = "uvicorn app.main:app --host 0.0.0.0 --port 8000"
+
+
+
+
+
+
+
+
+
+
+
+
